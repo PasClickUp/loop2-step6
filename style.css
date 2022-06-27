@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: hsl(203deg 46% 64%);
+}
+
+main {
+    margin: auto;
+    margin-top: 8rem;
+    background-color: white;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 1.3rem 1rem;
+    border-bottom: 1px grey solid;
+}
+
+table {
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px grey solid;
+}
+
+th {
+    color: grey;
+    padding-top: 1rem;
+    font-size: 13px;
+}
+
+td {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.twenty-eight {
+    color: grey;
+}
+
+.seven {
+    background-color: orangered;
+    border-radius: 50%;
+    height: 1rem;
+    width: 2rem;
+    color: white;
+}
+
+.sixteen, .nineteen {
+    border: 2px orangered solid;
+    border-radius: 50%;
+    height: 1rem;
+    width: 2rem;
+}
+
+.nineteen {
+    border: 2px purple solid;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 800;
+    color: grey;
+    padding: 1.5rem 1rem;
+}
+
+.time .plus {
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    border: 2px orangered solid;
+    border-radius: 50%;
+    height: 1rem;
+    width: 2rem;
+    /* align-items: center; */
+}
